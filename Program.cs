@@ -57,6 +57,7 @@ builder.Services.AddTransient<ISaisieRembService, SaisieRembService>();
 builder.Services.AddTransient<CreerPDFService>();
 // Commit Ninja
 // Add comment master
+//Add comment AzureDevops
 //builder.Services.AddScoped<IAvoirService, AvoirService>();
 
 Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense(builder.Configuration.GetValue<string>("SyncfusionKey"));
